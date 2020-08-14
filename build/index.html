@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./plugins/styles.css" />
+    <link rel="stylesheet" href="./fontawesome-free-5.11.2-web/css/all.css" />
+  </head>
+  <body>
+    <main class="min-w-full bg-blue-700 main">
+      <header class="md:px-20 z-10 ">
+        <nav class="p-4  min-w-full md:flex justify-around">
+          <a
+            href="rentalIndex.html"
+            class="md:flex minMd:pl-24 pl-2 text-white font-semibold tracking-wider text-xl uppercase"
+          >
+            <img src="../image/Done.png" alt="Main logo" class="w-12 h-12 mr-6 comp-logo" />
+            CENTRALEX</a
+          >
+
+          <ul class="md:flex justify-around text-sm text-white navs">
+            <li class="pr-6">EXCHANGE</li>
+            <li class="pr-6">PORTFOLIO</li>
+            <li class="pr-6">BUY CRYPTO</li>
+            <li class="pr-6 nav-4">
+              DOWNLOAD APP <i class="fa fa-mobile text-gray-500 nav-mob"></i>
+            </li>
+          </ul>
+          <div class="md:flex justify-between nav-cont text-white">
+            <div class="img-cont">
+              <img
+                src="../image/avatar-ali.png"
+                alt="ali pics"
+                class="w-10 h-10 nav-img"
+              />
+            </div>
+            <h6 class="pl-3 tracking-wide text-sm pt-1">RAMA</h6>
+            <i class="fa fa-sort-down pl-4 fa-"></i>
+          </div>
+          <div class="bell">
+            <i class="fa fa-bell fa-2x text-white pr-20"></i>
+          </div>
+        </nav>
+      </header>
+      <section class="banner mt-10 text-center">
+        <h4 class="text-white text-xl tracking-widest">
+          Buy and sell cryptocurrency
+        </h4>
+        <p
+          class="text-gray-100 text-xs p-3 pb-8 tracking-wider font-light text-center banner-text"
+        >
+          Most Easy place to trade and manage your cryptocurrency portfolio.
+        </p>
+        <div>
+          <input
+            type="text"
+            placeholder="Enter your email id"
+            class="border-none w-2/4 h-8"
+          />
+          <button class="banner-btn">Let's Begin</button>
+        </div>
+      </section>
+    </main>
+    <!-- End of Main section -->
+
+    <section class="table-sec w-full">
+      <div
+        class="w-5/6 list-cont mx-auto border-2 border-gray-300 pt-2 rounded-sm shadow-lg bg-white"
+      >
+        <div
+          class="md:flex justify-between bg-blue-100 p-3 px-16 w-full text-right"
+        >
+          <h6 class="mr-64 coin text-blue-400">Name</h6>
+          <h6 class="text-blue-400 text-left">Prices</h6>
+          <h6 class="text-blue-400">Charges</h6>
+          <h6 class="md:flex text-blue-400">
+            Market Cap
+            <div class="flex flex-col ml-2">
+              <i class="fa fa-sort-up up"></i>
+              <i class="fa fa-sort-down down"></i>
+            </div>
+          </h6>
+          <h6 class="text-blue-400 text-right">Trade</h6>
+        </div>
+        <!-- Single Trades -->
+        <div class="text-left">
+          <div class="single-trade p-3 md:flex justify-between">
+            <div class="flex mr-32 ml-8">
+              <i
+                class="fab fa-bitcoin mr-2 fa-2x trade-coin text-yellow-500"
+              ></i>
+              <h5 class="text-gray-600 mt-1">BTC</h5>
+              <h5 class="ml-16 text-gray-600 mt-1">Bitcoin</h5>
+            </div>
+
+            <!-- Prices -->
+            <h6 class="font-medium mt-1 text-gray-600 text-center">
+              $9427.70
+            </h6>
+            <h6 class="prices font-medium text-red-600 mt-1">-0.37%</h6>
+            <h6 class="prices font-medium text-gray-600 mt-1">9427.70</h6>
+            <button class="trade-btn bg-green-200 rounded-md mr-8">Buy</button>
+          </div>
+          <div class="line"></div>
+        </div>
+        <!-- end of single line -->
+        <!-- Single Trades -->
+        <div class="text-left">
+          <div class="single-trade p-3 md:flex justify-between">
+            <div class="flex mr-32 ml-8">
+              <i
+                class="fab fa-ethereum eth mr-2 fa-2x trade-coin text-yellow-500"
+              ></i>
+              <h5 class="text-gray-600 mt-1">ETH</h5>
+              <h5 class="ml-16 pas text-gray-600 mt-1">Ethereum</h5>
+            </div>
+
+            <!-- Prices -->
+            <h6 class="font-medium mt-1 text-gray-600 text-center">
+              $219.16
+            </h6>
+            <h6 class="prices font-medium text-green-600 mt-1">+3.44%</h6>
+            <h6 class="prices font-medium text-gray-600 mt-1">219.16</h6>
+            <button class="trade-btn bg-green-200 rounded-md mr-8">Buy</button>
+          </div>
+          <div class="line"></div>
+        </div>
+        <!-- end of single line -->
+
+        <!-- Single Trades -->
+        <div class="text-left">
+          <div class="single-trade p-3 md:flex justify-between">
+            <div class="flex mr-32 ml-8">
+              <i
+                class="fab fa-bitcoin eos mr-2 fa-2x trade-coin text-yellow-500"
+              ></i>
+              <h5 class="text-gray-600 mt-1">EOS</h5>
+              <h5 class="ml-16 pas text-gray-600 mt-1">EOS</h5>
+            </div>
+
+            <!-- Prices -->
+            <h6 class="font-medium mt-1 text-gray-600 text-center ml-5">
+              $2.6086
+            </h6>
+            <h6 class="prices font-medium text-green-600 mt-1">+10.05%</h6>
+            <h6 class="prices font-medium text-gray-600 mt-1">2.6086</h6>
+            <button class="trade-btn bg-green-200 rounded-md mr-8">Buy</button>
+          </div>
+          <div class="line"></div>
+        </div>
+        <!-- end of single line -->
+        <!-- Single Trades -->
+        <div class="text-left">
+          <div class="single-trade p-3 md:flex justify-between">
+            <div class="flex mr-32 ml-8">
+              <i
+                class="fab fa-ethereum bch mr-2 fa-2x trade-coin text-yellow-500"
+              ></i>
+              <h5 class="text-gray-600 mt-1">BCH</h5>
+              <h5 class="ml-16 pas text-gray-600 mt-1">BitCoin Cash</h5>
+            </div>
+
+            <!-- Prices -->
+            <h6 class="font-medium mt-1 text-gray-600 text-center ml-12 mr-16">
+              $2.6086
+            </h6>
+            <h6 class="prices font-medium text-green-600 mt-1 mr-16">
+              +10.05%
+            </h6>
+            <h6 class="prices font-medium text-gray-600 mt-1 mr-16">2.6086</h6>
+            <button class="trade-btn bg-green-200 rounded-md mr-8">Buy</button>
+          </div>
+          <div class="line"></div>
+        </div>
+        <!-- end of single line -->
+        <!-- Single Trades -->
+        <div class="text-left">
+          <div class="single-trade p-3 md:flex justify-between">
+            <div class="flex mr-32 ml-8">
+              <i
+                class="fab fa-bitcoin btc mr-2 fa-2x trade-coin text-yellow-500"
+              ></i>
+              <h5 class="text-gray-600 mt-1">BSV</h5>
+              <h5 class="ml-16 pas text-gray-600 mt-1">BitCoin SV</h5>
+            </div>
+
+            <!-- Prices -->
+            <h6 class="font-medium mt-1 text-gray-600 text-center ml-12 mr-16">
+              $2.6086
+            </h6>
+            <h6 class="prices font-medium text-green-600 mt-1 mr-16">
+              +10.05%
+            </h6>
+            <h6 class="prices font-medium text-gray-600 mt-1 mr-16">2.6086</h6>
+            <button class="trade-btn bg-green-200 rounded-md mr-8">Buy</button>
+          </div>
+          <div class="line"></div>
+        </div>
+        <!-- end of single line -->
+        <!-- Single Trades -->
+        <div class="text-left">
+          <div class="single-trade p-3 md:flex justify-between">
+            <div class="flex mr-32 ml-8">
+              <i
+                class="fab fa-ethereum bch mr-2 fa-2x trade-coin text-yellow-500"
+              ></i>
+              <h5 class="text-gray-600 mt-1">BCH</h5>
+              <h5 class="ml-16 pas text-gray-600 mt-1">BitCoin Cash</h5>
+            </div>
+
+            <!-- Prices -->
+            <h6 class="font-medium mt-1 text-gray-600 text-center ml-12 mr-16">
+              $2.6086
+            </h6>
+            <h6 class="prices font-medium text-green-600 mt-1 mr-16">
+              +10.05%
+            </h6>
+            <h6 class="prices font-medium text-gray-600 mt-1 mr-16">2.6086</h6>
+            <button class="trade-btn bg-green-200 rounded-md mr-8">Buy</button>
+          </div>
+          <div class="line"></div>
+        </div>
+        <!-- end of single line -->
+        <!-- Single Trades -->
+        <div class="text-left">
+          <div class="single-trade p-3 md:flex justify-between">
+            <div class="flex mr-32 ml-8">
+              <i
+                class="fab fa-bitcoin eos mr-2 fa-2x trade-coin text-yellow-500"
+              ></i>
+              <h5 class="text-gray-600 mt-1">RSR</h5>
+              <h5 class="ml-16 pas text-gray-600 mt-1">Cardona</h5>
+            </div>
+
+            <!-- Prices -->
+            <h6 class="font-medium mt-1 text-gray-600 text-center ml-12 mr-16">
+              $2.6086
+            </h6>
+            <h6 class="prices font-medium text-green-600 mt-1 mr-16">
+              +10.05%
+            </h6>
+            <h6 class="prices font-medium text-gray-600 mt-1 mr-16">2.6086</h6>
+            <button class="trade-btn bg-green-200 rounded-md mr-8">Buy</button>
+          </div>
+          <div class="line"></div>
+        </div>
+        <!-- end of single line -->
+        <!-- Single Trades -->
+        <div class="text-left">
+          <div class="single-trade p-3 md:flex justify-between">
+            <div class="flex mr-32 ml-8">
+              <i
+                class="fab fa-ethereum ada mr-2 fa-2x trade-coin text-yellow-500"
+              ></i>
+              <h5 class="text-gray-600 mt-1">ADA</h5>
+              <h5 class="ml-16 pas text-gray-600 mt-1">Ethereum Classic</h5>
+            </div>
+
+            <!-- Prices -->
+            <h6 class="font-medium mt-1 text-gray-600 text-center mr-16">
+              $2.6086
+            </h6>
+            <h6 class="prices font-medium text-green-600 mt-1 mr-16">
+              +10.05%
+            </h6>
+            <h6 class="prices font-medium text-gray-600 mt-1 mr-16">2.6086</h6>
+            <button class="trade-btn bg-green-200 rounded-md mr-8">Buy</button>
+          </div>
+          <div class="line"></div>
+        </div>
+        <!-- end of single line -->
+        <!-- Single Trades -->
+        <div class="text-left">
+          <div class="single-trade p-3 md:flex justify-between">
+            <div class="flex mr-32 ml-8">
+              <i
+                class="fab fa-bitcoin bch mr-2 fa-2x trade-coin text-yellow-500"
+              ></i>
+              <h5 class="text-gray-600 mt-1">ETC</h5>
+              <h5 class="ml-16 pas text-gray-600 mt-1">Litecoin</h5>
+            </div>
+
+            <!-- Prices -->
+            <h6 class="font-medium mt-1 text-gray-600 text-center ml-12 mr-16">
+              $2.6086
+            </h6>
+            <h6 class="prices font-medium text-green-600 mt-1 mr-16">
+              +10.05%
+            </h6>
+            <h6 class="prices font-medium text-gray-600 mt-1 mr-16">2.6086</h6>
+            <button class="trade-btn bg-green-200 rounded-md mr-8">Buy</button>
+          </div>
+          <div class="line"></div>
+        </div>
+        <!-- end of single line -->
+        <!-- Single Trades -->
+        <div class="text-left">
+          <div class="single-trade p-3 md:flex justify-between">
+            <div class="flex mr-32 ml-8">
+              <i
+                class="fab fa-ethereum ltc mr-2 fa-2x trade-coin text-yellow-500"
+              ></i>
+              <h5 class="text-gray-600 mt-1">LTC</h5>
+              <h5 class="ml-16 pas text-gray-600 mt-1">Tronix</h5>
+            </div>
+
+            <!-- Prices -->
+            <h6 class="font-medium mt-1 text-gray-600 text-center ml-20 mr-16">
+              $2.6086
+            </h6>
+            <h6 class="prices font-medium text-green-600 mt-1 mr-16">
+              +10.05%
+            </h6>
+            <h6 class="prices font-medium text-gray-600 mt-1 mr-16">2.6086</h6>
+            <button class="trade-btn bg-green-200 rounded-md mr-8">Buy</button>
+          </div>
+          <div class="line"></div>
+        </div>
+        <!-- end of single line -->
+        <!-- Single Trades -->
+        <div class="text-left">
+          <div class="single-trade p-3 md:flex justify-between">
+            <div class="flex mr-32 ml-8">
+              <i
+                class="fab fa-bitcoin trx mr-2 fa-2x trade-coin text-yellow-500"
+              ></i>
+              <h5 class="text-gray-600 mt-1">TRX</h5>
+              <h5 class="ml-16 pas text-gray-600 mt-1">Reserve Rights</h5>
+            </div>
+
+            <!-- Prices -->
+            <h6 class="font-medium mt-1 text-gray-600 text-center mr-16">
+              $2.6086
+            </h6>
+            <h6 class="prices font-medium text-green-600 mt-1 mr-16">
+              +10.05%
+            </h6>
+            <h6 class="prices font-medium text-gray-600 mt-1 mr-16">2.6086</h6>
+            <button class="trade-btn bg-green-200 rounded-md mr-8">Buy</button>
+          </div>
+        </div>
+        <!-- end of single line -->
+      </div>
+    </section>
+    <div class="angle-down">
+      <i class="fa fa-angle-down arr"></i>
+    </div>
+
+    <section class="w-full pt-32">
+      <img src="../image/curve.png" alt="curve" class="w-24 h-48" />
+      <div class="w-3/4 grid grid-cols-2 mx-auto">
+        <div class="pl-20">
+          <h1
+            class="text-gray-900 font-semibold text-2xl w-7/12 tracking-wider mb-5"
+          >
+            Earn Referral up to <span>$10</span> worth of crypto
+          </h1>
+          <p class="font-normal text-sm text-gray-800 w-10/12 mb-4">
+            Once your friend will buy or sell $100 of cryptocurrency you will
+            both get $10 of the free bitcoin
+          </p>
+          <button
+            class="text-white bg-blue-600 w-1/4 p-2 leading-6 text-center"
+          >
+            INVITE
+          </button>
+        </div>
+        <div class="anime-cont z-50">
+          <img src="../image/animation_500_kdt7edwq.gif" alt="animation" />
+        </div>
+      </div>
+    </section>
+    <!-- <img src="../image/curve4.png" alt="img" class="w-32 h-24 img-curve " /> -->
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="w-full portfolio pt-32 bg-blue-700 pb-32">
+      <div class="w-3/4 grid grid-cols-2 gap-10 mx-auto">
+        <div class="stock-img-cont">
+          <img src="../image/Dashboard_Image.png" alt="dashboard" />
+        </div>
+        <div class="create-port">
+          <h5 class="text-white text-3xl mb-10 tracking-wider ml-12">
+            Create your portfolio
+          </h5>
+          <!-- single list -->
+          <div class="flex mb-5">
+            <div class="circle"></div>
+            <div class="ml-5">
+              <h5 class="text-white font-bold text-xl mb-3">
+                Trading for Everyone
+              </h5>
+              <p class="text-white font-hairline w-3/4">
+                Easy to use trading platform for beginner and advanced traders
+              </p>
+            </div>
+          </div>
+          <!-- end of single list -->
+          <!-- single list -->
+          <div class="flex mb-5">
+            <div class="circle"></div>
+            <div class="ml-5">
+              <h5 class="text-white font-bold text-xl mb-3">
+                Competitive Rates
+              </h5>
+              <p class="text-white font-hairline w-3/4">
+                Easy to use trading platform for beginner and advanced traders
+              </p>
+            </div>
+          </div>
+          <!-- end of single list -->
+          <!-- single list -->
+          <div class="flex mb-5">
+            <div class="circle"></div>
+            <div class="ml-5">
+              <h5 class="text-white font-bold text-xl mb-3">
+                Being Innovative
+              </h5>
+              <p class="text-white font-hairline w-3/4">
+                Centralex is developing revolutionary products that will benefit
+                the crypto-eco-systems whole.
+              </p>
+            </div>
+          </div>
+          <!-- end of single list -->
+          <!-- single list -->
+          <div class="flex mb-5">
+            <div class="circle"></div>
+            <div class="ml-6">
+              <h5 class="text-white font-bold text-xl mb-3">
+                Account Transparency
+              </h5>
+              <p class="text-white font-hairline w-3/4">
+                All traded assets are on a blockchain or tokenized real assets,
+                which allows Centralex to show full liquidity and backing.
+              </p>
+            </div>
+          </div>
+          <!-- end of single list -->
+          <!-- single list -->
+          <div class="flex">
+            <div class="circle"></div>
+            <div class="ml-5">
+              <h5 class="text-white font-bold text-xl mb-3">
+                Monitoring & Alerting
+              </h5>
+              <p class="text-white font-hairline w-3/4">
+                Our security flagging and AI will monitor all our syastem 24/7
+                in order to safeguard your crypto assets
+              </p>
+            </div>
+          </div>
+          <!-- end of single list -->
+        </div>
+      </div>
+    </section>
+    <!-- <img src="../image/curve5.png" alt="" class="w-24 h-48 block ml-20" /> -->
+
+    <!-- Exchange section -->
+    <section class="w-full pb-20">
+      <h4
+        class="text-center mb-20 text-3xl tracking-wider text-gray-800 font-bold"
+      >
+        Most Reliable Exchange
+      </h4>
+      <div class="grid grid-cols-2 gap-20 w-3/4 mx-auto">
+        <div class="list-conts">
+          <!-- single exchange -->
+          <div class="mb-6">
+            <h4
+              class="text-right text-gray-800 text-2xl font-bold tracking-wider mb-8"
+            >
+              Unrivaled Transparency
+            </h4>
+            <p class="text-right text-gray-700">
+              All traded assets are written to the blockchain and are therfore
+              cryptographically verifiable, which means full transparency of
+              both accounts and exchange liquidity.
+            </p>
+          </div>
+          <!-- single exchange -->
+          <div class="mb-6">
+            <h4
+              class="text-right text-gray-800 text-2xl font-bold tracking-wider mb-8"
+            >
+              State-of-the-art, multi-layered security
+            </h4>
+            <p class="text-right text-gray-700">
+              Our system is monitored 24/7 using a combination of cutting-edge
+              AI, robust security flagging and real-time alerts, and we do not
+              store your private keys. With our high level security management
+              system, you can be rest assured that your crypto assets and
+              transactions are safe and secure
+            </p>
+          </div>
+          <!-- single exchange -->
+          <div class="mb-6">
+            <h4
+              class="text-right text-gray-800 text-2xl font-bold tracking-wider mb-8"
+            >
+              Speed and user-friendliness
+            </h4>
+            <p class="text-right text-gray-700">
+              Dseigned for simplicity and withmass adoption in mid.Centralex
+              offers ultra-fast trading speeds and anintuitive easy-to-use UI
+              for both novice and experienced traders
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src="../image/animation_500_kdt7edwq.gif" alt="anime" />
+        </div>
+      </div>
+    </section>
+    <img src="../image/curve6.png" alt="pics" class="w-56  curve6 h-24">
+
+    <!-- HOW TO BEGIN SECTION -->
+    <section class="w-full bg-blue-700 pb-16 pt-6">
+      <h4 class="text-center font-bold text-2xl text-white">How to Begin</h4>
+      <div class="flex w-3/4 mx-auto">
+        <!-- step 1 -->
+        <div>
+          <img src="../image/Create_account.png" alt="acc">
+          <h6 class="text-center text-white mt-3">Create an account</h6>
+        </div>
+          <div class="divide"></div>
+        <!-- step 1 -->
+        <div>
+          <img src="../image/bank_Account.png" alt="acc">
+          <h6 class="text-center text-white mt-3">Link your bank account</h6>
+        </div>
+          <div class="divide"></div>
+        <!-- step 1 -->
+        <div class="mt-8">
+          <img src="../image/Buy&sell.png" alt="acc">
+          <h6 class="text-center text-white mt-3">Start buying & selling</h6>
+        </div>
+          
+      </div>
+
+    </section>
+    <!-- END OF BEDIN SECTION -->
+    <section class="w-full pt-16 pb-8">
+      <div class="w-3/4 grid grid-cols-2 mx-auto">
+        <div class="pl-20 pt-32">
+          <h1
+            class="text-gray-900 font-semibold text-3xl w-3/4 tracking-wider mb-5"
+          >
+            Earn Referral up to <span>$10</span> worth of crypto
+          </h1>
+          <p class="font-normal text-sm text-gray-800 w-10/12 mb-4">
+            Once your friend will buy or sell $100 of cryptocurrency you will
+            both get $10 of the free bitcoin
+          </p>
+          <button
+            class="text-white bg-blue-600 w-1/4 p-2 leading-6 text-center"
+          >
+            INVITE
+          </button>
+        </div>
+        <div class="anime-cont z-50 pt-16">
+          <img src="../image/animation_500_kdtg5peq.gif" alt="animation" />
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- CONNECT SECTION -->
+    <section class="w-full bg-gray-200 pt-20 pb-12">
+      <div class="w-3/4 mx-auto grid grid-cols-5 gap-5">
+        <div class="connect1 col-span-2">
+            <div class="flex mb-16 pt-10">
+              <img src="../image/Done1.png" alt="logo" class="w-20 h-20">
+              <h4 class="text-blue-600 text-2xl mt-5 ml-4 font-bold">CENTRALEX</h4>
+            </div>
+            <h5 class="tracking-wider text-gray-900 text-xl mb-4">CONNECT WITH US</h5>
+            <div class="flex justify-between w-8/12">
+              <i class="fab fa-twitter text-blue-700 fa-2x"></i>
+              <i class="fas fa-paper-plane fa-2x text-blue-700"></i>
+              <i class="fab fa-facebook fa-2x text-blue-700"></i>
+              <i class="fab fa-instagram fa-2x text-blue-700"></i>
+            </div>
+        </div>
+        <!-- Product -->
+        <div>
+          <h4 class="text-2xl mb-4 text-gray-800" >PRODUCT</h4>
+          <h6 class="text-gray-700 text-base text-left">Centralex</h6>
+          <h6 class="text-gray-700 text-base text-left">Commerce</h6>
+          <h6 class="text-gray-700 text-base text-left">Custody</h6>
+          <h6 class="text-gray-700 text-base text-left">Earn</h6>
+          <h6 class="text-gray-700 text-base text-left">Pro</h6>
+          <h6 class="text-gray-700 text-base text-left">USD Coin</h6>
+          <h6 class="text-gray-700 text-base text-left">Wallet</h6>
+          <h6 class="text-gray-700 text-base text-left">Ventures</h6>
+         
+        </div>
+        <!-- Product -->
+        <div>
+          <h4 class="text-2xl mb-4 text-gray-800" >COMPANY</h4>
+          <h6 class="text-gray-700 text-base text-left">About</h6>
+          <h6 class="text-gray-700 text-base text-left">Affiliates</h6>
+          <h6 class="text-gray-700 text-base text-left">Careers</h6>
+          <h6 class="text-gray-700 text-base text-left">Partners</h6>
+          <h6 class="text-gray-700 text-base text-left">Press</h6>
+          <h6 class="text-gray-700 text-base text-left">Legal & Privacy</h6>
+          <h6 class="text-gray-700 text-base text-left">WSupport</h6>
+          
+         
+        </div>
+        <!-- Product -->
+        <div>
+          <h4 class="text-2xl mb-4 text-gray-800" >LEARN</h4>
+          <h6 class="text-gray-700 text-base text-left">What is Bitcoin</h6>
+          <h6 class="text-gray-700 text-base text-left">Buy Crypto</h6>
+          <h6 class="text-gray-700 text-base text-left">Supported countries</h6>
+          
+          
+         
+        </div>
+      </div>
+    </section>
+    <!-- Footer section -->
+    <footer class="w-full bg-blue-700 text-center p-2">
+        <h6 class="text-white font-light tracking-widest">&copy;Copyright 2018-2020 Centralex Group Ltd</h6>
+    </footer>
+  </body>
+</html>

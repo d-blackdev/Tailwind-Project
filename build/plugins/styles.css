@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+.main {
+  min-height: 55vh;
+  z-index: -1;
+  position: relative;
+}
+.comp-logo{
+  margin-top: -5px;
+}
+.navs {
+  margin-left: -70px;
+}
+.nav-4 {
+  margin-left: 20px;
+}
+.nav-mob {
+  margin-left: 10px;
+  color: white;
+}
+.nav-cont {
+  margin-left: -100px;
+}
+.img-cont {
+  display: block;
+  margin-top: -7px;
+}
+/* .bell{
+  margin-left: -100px;
+} */
+.banner {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.banner-text {
+  /* width: 95%; */
+  text-align: center;
+  letter-spacing: 1.3px;
+}
+.banner-btn {
+  border: 1px solid rgb(6, 190, 52);
+  background: rgb(6, 190, 52);
+  text-align: center;
+  color: white;
+  padding: 4px;
+  width: 25%;
+  height: 40px;
+  margin-left: 15px;
+  border-radius: 2px;
+}
+.banner input {
+  margin-left: -5px;
+  height: 40px;
+  padding: 10px;
+}
+.banner input::placeholder {
+  color: rgb(103, 103, 143);
+  padding: 5px;
+  font-weight: 500;
+  font-size: medium;
+}
+/* .up{
+  margin-top: 5px;
+}
+.down{
+  margin-bottom: 40px;
+} */
+
+/* COIN TRADE SECTION */
+.list-cont {
+  position: absolute;
+  top: 43%;
+  left: 10%;
+  z-index: 20;
+  text-align: right !important;
+}
+.table-sec{
+  height: 95vh;
+}
+.pas {
+  margin-left: 4.5rem !important;
+}
+.coin {
+  margin-left: -15px;
+}
+/* COINS COLOR */
+.trade-coin {
+  color: rgb(243, 148, 23);
+}
+.eth {
+  color: rgb(21, 111, 185);
+}
+.eos {
+  color: rgb(29, 28, 28);
+}
+.bch {
+  color: #38a169;
+}
+.ltc {
+  color: cadetblue;
+}
+.trx {
+  color: rgb(202, 10, 10);
+}
+.etc {
+  color: rgb(16, 212, 59);
+}
+.ada {
+  color: darkcyan;
+}
+/* END OD COINS COLOR */
+.prices {
+  text-align: left !important;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background: rgb(197, 197, 197);
+}
+.trade-btn {
+  padding: 8px;
+  background: rgb(227, 255, 224);
+  color: #38a169;
+  width: 85px;
+}
+.angle-down {
+  width: 50px;
+  position: absolute;
+  height: fit-content;
+  border: 1px solid blue;
+  border-radius: 50%;
+ 
+  background: blue;
+  text-align: center;
+  top: 65.5rem;
+  left: 50%;
+  z-index: 30;
+
+}
+.arr {
+  color: white;
+  display:block ;
+  line-height: 50px;
+  margin-top: 7px;
+  font-size: 2rem;
+}
+/* EARN SECTION */
+.anime-cont{
+  margin-top: -120px;
+}
+/* PORTFOLIO SCETION */
+.portfolio{
+  clip-path: polygon(0% 15%, 100% 0%, 100% 83%, 0% 100%);
+}
+.circle{
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 9px;
+}
+.stock-img-cont{
+  margin-top: 30px;
+}
+
+.img-curve{
+  position: absolute;
+  left: 85%;
+  top: 98rem;
+  z-index: 20;
+}
+/* How to begin section */
+.divide{
+  width: 200px;
+  height: 4px;
+  border-radius: 10px;
+  background: white;
+  margin: 150px 5px 0px 5px;
+  
+}
+.curve6{
+  margin-left: 80%;
+}
